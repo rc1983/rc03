@@ -1,0 +1,36 @@
+body
+{
+    background: black;
+    color: white;
+}
+
+a
+{
+    color: yellow;
+}
+
+a:hover
+{
+    color: coral;
+}
+
+a:visited
+{
+    color: coral;
+}
+
+img
+{
+    width: 30%;
+    height: 30%;
+}
+
+/* div
+{
+    float: left;
+} */
+
+/* figure
+{
+    margin: auto;
+} */
