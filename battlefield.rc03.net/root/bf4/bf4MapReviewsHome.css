@@ -21,8 +21,15 @@ a:visited
 
 img
 {
+
+}
+
+.fig
+{
     width: 30%;
     height: 30%;
+    float: left;
+    margin: 1.66%;
 }
 
 /* div
