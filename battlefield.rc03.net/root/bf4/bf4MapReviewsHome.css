@@ -1,6 +1,6 @@
 body
 {
-    background: black;
+    background: rgb(30, 30, 30);
     color: white;
 }
 
@@ -21,23 +21,28 @@ a:visited
 
 img
 {
-
+    box-shadow: 5px 5px 5px #888888;
+    max-width: 75%;
+    background-position: center;
 }
 
 .fig
 {
-    width: 30%;
-    height: 30%;
+    height: 256px;
     float: left;
-    margin: 1.66%;
 }
 
-/* div
+figcaption
 {
-    float: left;
-} */
+    margin-top: 7px;
+}
 
-/* figure
+.clear
 {
-    margin: auto;
-} */
+    clear: both;
+}
+
+h1
+{
+    text-align: center;
+}
