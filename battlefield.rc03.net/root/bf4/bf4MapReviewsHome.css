@@ -1,5 +1,7 @@
 body
 {
+    /* Including the font here will make all the sub elements inherit the property */
+    /* font-family: 'Raleway', sans-serif; */
     background: rgb(30, 30, 30);
     color: white;
 }
@@ -23,18 +25,18 @@ img
 {
     box-shadow: 5px 5px 5px #888888;
     max-width: 75%;
-    background-position: center;
 }
 
 .fig
 {
+    /* font-family: 'Raleway', sans-serif; */
     height: 256px;
     float: left;
 }
 
 figcaption
 {
-    margin-top: 7px;
+    margin-top: 8px;
 }
 
 .clear
@@ -44,5 +46,15 @@ figcaption
 
 h1
 {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
+    text-decoration: underline;
+}
+
+#toTheTop
+{
+    top: 90%;
+    left: 90%;
+    /* bottom: 50%; */
+    position: fixed;
 }
