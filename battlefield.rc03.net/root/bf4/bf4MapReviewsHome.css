@@ -2,7 +2,7 @@ body
 {
     /* Including the font here will make all the sub elements inherit the property */
     /* font-family: 'Raleway', sans-serif; */
-    background: rgb(30, 30, 30);
+    background: rgb(50, 50, 50);
     color: white;
 }
 
