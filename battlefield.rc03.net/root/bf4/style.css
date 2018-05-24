@@ -1,9 +1,12 @@
 body
 {
     /* Including the font here will make all the sub elements inherit the property */
-    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     background: rgb(50, 50, 50);
     color: white;
+    margin: 20px auto;
+    max-width: 700px;
+    
 }
 
 a
@@ -24,7 +27,7 @@ a:visited
 img
 {
     box-shadow: 5px 5px 5px #888888;
-    max-width: 80%;
+    max-width: 95%;
 }
 
 .fig
@@ -32,7 +35,9 @@ img
     float: left;
     margin: 5px;
     height: 200px;
-    width: 225px;
+    width: 30%;
+    /* padding-left: 25px; */
+    /* width: 225px; */
 }
 
 figcaption
@@ -47,14 +52,12 @@ figcaption
 
 h1
 {
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     text-decoration: underline;
 }
-
 h2
 {
-    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.07rem;
 }
 
 #toTheTop
@@ -62,10 +65,25 @@ h2
     top: 92%;
     left: 92%;
     position: fixed;
+    font-size: 80%;
 }
 
 .content
 {
-    max-width: 950px;
-    margin: 20px auto;
+    /* max-width: 700px; */
+    /* margin: 20px auto; */
+    font-size: 90%;
+    padding: 20px;
+}
+
+hr
+{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(230, 220, 220, 0), rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0));
+}
+
+.container
+{
+    border: rgba(134, 134, 132,0.25) 2px solid;
 }
