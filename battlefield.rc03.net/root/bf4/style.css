@@ -1,6 +1,5 @@
 body
 {
-    /* Including the font here will make all the sub elements inherit the property */
     font-family: 'Raleway', sans-serif;
     background: rgb(50, 50, 50);
     color: white;
@@ -11,7 +10,7 @@ body
 
 a
 {
-    color: rgb(245, 194, 28);
+    color: #F2CF08;
 }
 
 a:hover
@@ -36,8 +35,6 @@ img
     margin: 5px;
     height: 200px;
     width: 30%;
-    /* padding-left: 25px; */
-    /* width: 225px; */
 }
 
 figcaption
@@ -70,10 +67,9 @@ h2
 
 .content
 {
-    /* max-width: 700px; */
-    /* margin: 20px auto; */
-    font-size: 90%;
-    padding: 20px;
+    text-align: justify;
+    font-size: 85%;
+    letter-spacing: 0.04rem;
 }
 
 hr
@@ -83,7 +79,8 @@ hr
     background-image: linear-gradient(to right, rgba(230, 220, 220, 0), rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0));
 }
 
-.container
+.grade
 {
-    border: rgba(134, 134, 132,0.25) 2px solid;
+    font-weight: bold;
+    letter-spacing: 0.12rem;
 }
