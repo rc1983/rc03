@@ -1,3 +1,4 @@
+<<<<<<< HEAD:battlefield.rc03.net/root/style.css
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -103,4 +104,114 @@ hr
     color: #dd7700;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
+=======
+body
+{
+    font-family: 'Raleway', sans-serif;
+    background: rgb(50, 50, 50);
+    color: white;
+    margin: 20px auto;
+    max-width: 700px;
+    border: rgb(134, 134, 132) 2px solid;
+    padding: 20px;
+
+}
+
+a
+{
+    color: #F2CF08;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: coral;
+}
+
+a:visited
+{
+    color: coral;
+}
+
+img
+{
+    box-shadow: 5px 5px 5px #888888;
+    max-width: 95%;
+}
+
+.fig
+{
+    float: left;
+    margin: 5px;
+    height: 200px;
+    width: 30%;
+}
+
+figcaption
+{
+    margin-top: 8px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+h2
+{
+    letter-spacing: 0.07rem;
+}
+
+#toTheTop
+{
+    top: 92%;
+    left: 92%;
+    position: fixed;
+    font-size: 80%;
+}
+
+.content
+{
+    text-align: justify;
+    font-size: 85%;
+    letter-spacing: 0.04rem;
+}
+
+hr
+{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(230, 220, 220, 0), rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0));
+}
+
+.grade
+{
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+}
+
+#nextPage
+{
+    position: absolute;
+    right: 0;
+}
+
+.navigation
+{
+    text-transform: uppercase;
+    position: relative;
+    font-size: 80%;
+}
+
+.date
+{
+    color: #dd7700; 
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+>>>>>>> 4e72324... Added border to body:battlefield.rc03.net/ROOT/style.css
 }
