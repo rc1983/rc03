@@ -3,10 +3,10 @@ body
     font-family: 'Raleway', sans-serif;
     background: rgb(50, 50, 50);
     color: white;
-    margin: 20px auto;
+    
     max-width: 700px;
     border: rgb(134, 134, 132) 2px solid;
-    padding: 20px;
+    
 
 }
 
@@ -107,3 +107,10 @@ hr
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
