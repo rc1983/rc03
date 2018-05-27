@@ -5,7 +5,7 @@ body
     color: white;
     margin: 20px auto;
     max-width: 700px;
-    border: rgb(134, 134, 132) 2px solid;
+    border: rgb(134, 134, 132) 1px solid;
     padding: 20px;
 
 }
@@ -78,7 +78,7 @@ h2
 hr
 {
     border: 0;
-    height: 1px;
+    height: 2px;
     background-image: linear-gradient(to right, rgba(230, 220, 220, 0), rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0));
 }
 
