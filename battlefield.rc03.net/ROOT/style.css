@@ -1,4 +1,4 @@
-body
+/*body
 {
     font-family: 'Raleway', sans-serif;
     background: rgb(50, 50, 50);
@@ -8,7 +8,7 @@ body
     border: rgb(134, 134, 132) 2px solid;
     
 
-}
+}*/
 
 a
 {
@@ -101,7 +101,7 @@ hr
     font-size: 80%;
 }
 
-.date
+/*.date
 {
     color: #dd7700; 
     text-transform: uppercase;
@@ -113,4 +113,4 @@ hr
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
+  }*/
