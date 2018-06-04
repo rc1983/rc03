@@ -1,22 +1,47 @@
-.fig
+.db {
+  background-image: url(./bf4/images/thumbnails/baseMaps/dawnbreaker_th.jpg);
+}
+
+.fz {
+  background-image: url(./images/thumbnails/baseMaps/flood_zone_th.jpg);
+}
+
+.gm {
+  background-image: (./images/thumbnails/baseMaps/golmud_railway_th.jpg);
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+/*.fig
 {
-    height: 250px;
+    height: auto;
     width: 100%;
     background-size: cover;
     background-position: center;
-}
+}*/
 
 figcaption
 {
     margin-top: 8px;
 }
 
+#imgsize
+{    
+    max-height: 196px;
+    max-width: 350px;
+}
+
+
 #body-override
 {
     font-family: 'Raleway', sans-serif;
     background: rgb(50, 50, 50);
     color: white;
-    
     /* max-width: 700px; */
     border: rgb(134, 134, 132) 2px solid;
 }
