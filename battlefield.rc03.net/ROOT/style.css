@@ -1,16 +1,49 @@
-body 
+#body-override
 {
-    font-family: 'Raleway', sans-serif;
     background: rgb(50, 50, 50);
     color: white;
-    margin: 20px auto;
-    max-width: 700px;
-    border: rgb(130, 130, 130) 1px solid;
-    padding: 20px;
-
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.04rem;
+    font-size: 12.5px;
 }
 
-a
+.thumbnail-override
+{
+    border: none;
+    background-color: rgb(50, 50, 50);
+}
+
+.a-override
+{
+    color: #F2CF08;
+    text-decoration: none;
+}
+
+.a-override:hover
+{
+    color: coral;
+}
+
+.a-override:visited
+{
+    color: coral;
+}
+
+.flex 
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-override
+{
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+/* a
 {
     color: #F2CF08;
     text-decoration: none;
@@ -106,4 +139,4 @@ hr
     color: #dd7700; 
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-}
+} */
