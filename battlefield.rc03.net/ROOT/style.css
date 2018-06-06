@@ -3,6 +3,8 @@
     background: rgb(50, 50, 50);
     color: white;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.04rem;
+    font-size: 12.5px;
 }
 
 .thumbnail-override
@@ -34,6 +36,14 @@
 }
 
 .img-override
+{
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.add-padding
+{
+    padding-bottom: 10px;
+}
 
 /* body 
 {
