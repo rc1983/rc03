@@ -40,6 +40,30 @@
     box-shadow: 5px 5px 5px #888888;
 }
 
+hr
+{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(230, 220, 220, 0), rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0));
+}
+
+.grade
+{
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+}
+
+.container-override
+{
+    max-width: 800px;
+    border: rgb(130, 130, 130) 1px solid;
+}
+
+.content
+{
+    text-align: justify;
+}
+
 /* ------------------------------------------------------------------------------------------------- */
 
 
