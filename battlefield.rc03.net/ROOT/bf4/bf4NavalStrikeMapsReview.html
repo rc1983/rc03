@@ -5,24 +5,42 @@
 	<link rel="stylesheet" type="text/css" href="..\style.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,800" rel="stylesheet">
 </head>
-<body>
-	<div id="top"><h1>Battlefield 4 Naval Strike Maps Review</h1></div>
+<body id="body-override">
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="..\index.html" class="navbar-brand">RC03.net</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="bf4MapReviewsHome.html">Reviews</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="bf4SecondAssaultMapsReview.html">Second Assault</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-	<p id="toTheTop">
-		<a href="#top">Back to top</a>
-	</p>
+	<div class="container container-override"></div>
+	<h1 class="heading-color">Battlefield 4 Naval Strike Maps Review</h1>
 
-	<div class="navigation">
-		<a href="bf4MapReviewsHome.html" id="home"><< HOME</a>
-		<a href="bf4DragonsTeethMapsReview.html" id="nextPage">DRAGON'S TEETH >></a>
-	</div>
+		<p>Review of all the maps in Naval Strike exapansion.</p>
 	
-	<p class="content">Review of all the maps in Naval Strike exapansion.</p>
-	
-	<!-- LOST ISLANDS -->
-	<div id="li" class="content">
-		<a><h2>Lost Islands</h2></a>
+		<!-- LOST ISLANDS -->
+		<h2 id="li">Lost Islands</h2>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/bLYYw-8-g1o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br/>
+		<div  class="content">
 		<p>
 			One of the most beautiful maps in the entire series. 
 		</p>
@@ -35,16 +53,15 @@
 		<p>
 			Choppers also get to do some work attacking the transport vehicles, and taking out snipers on the hills. Its a great map for all classes. 
 		</p>
-		<p class="grade">
-			Grade: A
-		</p>
+		<p class="grade">Grade: A</p>
 		<hr>
-	</div>
+		</div>
 
-	<!-- NANSHA STRIKE -->
-	<div id="ns" class="content">
-		<a><h2>Nansha Strike</h2></a>
+		<!-- NANSHA STRIKE -->
+		
+		<h2 id="ns" class="heading-color">Nansha Strike</h2>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/jwoaXhaqTQk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br/>
+		<div class="content">
 		<p>
 			A large beautiful map where attack boats and jets control the waters. 
 		</p>
@@ -105,5 +122,7 @@
 			Grade: A
 		</p>
 	</div>
+<script src="..\dist\js\jquery-3.3.1.js"></script>
+<script src="..\dist\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
 </body>
 </html>
