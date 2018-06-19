@@ -1,3 +1,13 @@
+.topPadding
+{
+    padding-top: 20px;
+}
+
+.bottomPadding
+{
+    padding-bottom: 20px;
+}
+
 #body-override
 {
     background: rgb(50, 50, 50);
@@ -6,8 +16,6 @@
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.06rem;
     font-size: 14px;
-    /* background: url(carbon-fibre.png);
-    background-size: auto; */
 }
 
 .thumbnail-override
@@ -53,7 +61,6 @@ hr
 
 .container-override
 {
-    /* max-width: 800px; */
     border: rgb(130, 130, 130) 1px solid;
 }
 
@@ -64,7 +71,6 @@ hr
 
 .heading-color
 {
-    /* font-weight: bold; */
     color:wheat;
 }
 
@@ -74,104 +80,3 @@ hr
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
-
-/* ------------------------------------------------------------------------------------------------- */
-
-
-/* a
-{
-    color: #F2CF08;
-    text-decoration: none;
-}
-
-a:hover
-{
-    color: coral;
-}
-
-a:visited
-{
-    color: coral;
-}
-
-img
-{
-    box-shadow: 5px 5px 5px #888888;
-    max-width: 95%;
-}
-
-.fig
-{
-    float: left;
-    margin: 5px;
-    height: 200px;
-    width: 30%;
-}
-
-figcaption
-{
-    margin-top: 8px;
-}
-
-.clear
-{
-    clear: both;
-}
-
-h1
-{
-    text-align: center;
-    text-decoration: underline;
-}
-h2
-{
-    letter-spacing: 0.07rem;
-}
-
-#toTheTop
-{
-    top: 92%;
-    left: 92%;
-    position: fixed;
-    font-size: 80%;
-}
-
-.content
-{
-    text-align: justify;
-    font-size: 85%;
-    letter-spacing: 0.04rem;
-}
-
-hr
-{
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(230, 220, 220, 0), rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0));
-}
-
-.grade
-{
-    font-weight: bold;
-    letter-spacing: 0.12rem;
-}
-
-#nextPage
-{
-    position: absolute;
-    right: 0;
-}
-
-.navigation
-{
-    text-transform: uppercase;
-    position: relative;
-    font-size: 80%;
-}
-
-.date
-{
-    color: #dd7700; 
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-} */
