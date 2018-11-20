@@ -28,6 +28,7 @@
 {
     color: rgb(202, 173, 5);
     text-decoration: underline;
+    font-weight: 550;
 }
 
 .a-override:hover
