@@ -1,2 +1,2 @@
-set "JAVA_HOME=D:\java\jdk64-1.8.0_161"
+set "JAVA_HOME=D:\java\amazon-jdk1.8.0_222"
 exit /b 0
